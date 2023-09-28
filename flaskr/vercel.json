@@ -1,0 +1,11 @@
+{
+    "Build":[{
+        "src":"flaskr/__init__.py",
+        "use":"@vercel/python"
+    }],
+    "routes":[{
+        "src":"/(.*)",
+        "dest":"flaskr/__init__.py"
+    }]
+
+}
