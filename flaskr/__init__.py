@@ -37,6 +37,6 @@ def create_app(test_config=None):
 
     # Initialize the database
     db.init_app(app)
-    
-    if __name__ == "__maim__":
-        app.run 
+    return app
+   
+
