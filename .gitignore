@@ -3,7 +3,7 @@
 *.pyc
 __pycache__/
 
-flaskr.sqlite
+db.sqlite
 .pytest_cache/
 .coverage
 htmlcov/
