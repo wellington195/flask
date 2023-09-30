@@ -3,8 +3,8 @@ import tempfile
 from flask import Flask
 from flask.testing import FlaskClient
 import pytest
-from flaskr import create_app
-from flaskr.db import get_db, init_db
+from api import create_app
+from api.db import get_db, init_db
 
 with open(os.path.join(os.path.dirname(__file__), 'data.sql'), 'rb') as f:
     _data_sql = f.read().decode('utf8')
