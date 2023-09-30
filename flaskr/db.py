@@ -2,7 +2,7 @@ import sqlite3
 import click
 from flask import current_app, g
 
-
+#flask --app flaskr init-db
 def get_db():
     if 'db' not in g:
         g.db = sqlite3.connect(
