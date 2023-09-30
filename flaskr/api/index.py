@@ -1,4 +1,5 @@
 from flaskr import create_app
+import os
 
-if __name__ =='__maim__':
-    create_app()
+
+create_app()
