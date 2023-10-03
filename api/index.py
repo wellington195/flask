@@ -38,6 +38,6 @@ def create_app(test_config=None):
 
     # Initialize the database
     db.init_app(app)
-    return app.run
+    return app
    
 
