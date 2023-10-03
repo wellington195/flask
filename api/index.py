@@ -4,7 +4,7 @@ from flask import Flask
 
 
 #flask --app api run --debug
-def create_app(test_config=None):
+
     # create and configure the app
     app = Flask(__name__)
 
@@ -38,6 +38,6 @@ def create_app(test_config=None):
 
     # Initialize the database
     db.init_app(app)
-    return app
+
    
 
